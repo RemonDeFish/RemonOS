@@ -1,5 +1,4 @@
-# RemonOS
-# Informatika-Distro
+# RemonOS Informatika-Distro
 Informatika-Distro: Menciptakan Lingkungan Kerja Digital Khusus
 
 ## Deskripsi
