@@ -78,7 +78,7 @@ Distribusi ini menyertakan skrip otomatis yang dijalankan saat first boot:
 
 ## Proses Remastering (Ringkas)
 1. Install Cubic di Linux Mint
-2. Import ISO Pop!_OS
+2. Import ISO Linux Mint
 3. Modifikasi filesystem (chroot)
 4. Instal & hapus paket sesuai kebutuhan
 5. Konfigurasi user dan kernel parameter
