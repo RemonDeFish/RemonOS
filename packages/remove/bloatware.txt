@@ -1,7 +1,11 @@
-thunderbird
-cheese
-rhythmbox
 aisleriot
 gnome-mahjongg
 gnome-mines
 gnome-sudoku
+cheese
+rhythmbox
+hexchat
+transmission-gtk
+drawing
+pix
+simple-scan
