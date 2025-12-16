@@ -1,17 +1,69 @@
 #!/bin/bash
+set -e
 
-echo "=== Konfigurasi First Boot ==="
+echo "=== Informatika Lab Distro | First Boot Script (Cinnamon) ==="
 
-# Update sistem
-apt update && apt upgrade -y
+# ==============================
+# 1. KERNEL CONFIGURATION
+# ==============================
+echo "[1/4] Applying kernel parameters..."
 
-# Terapkan konfigurasi kernel sysctl
 sysctl -p
 
-# Set timezone
+# ==============================
+# 2. PACKAGE MANAGEMENT
+# ==============================
+echo "[2/4] Installing and removing packages..."
+
+apt update
+
+install_packages() {
+    while read -r pkg; do
+        [ -z "$pkg" ] && continue
+        apt install -y "$pkg"
+    done < "$1"
+}
+
+install_packages /opt/packages/install/productivity.txt
+install_packages /opt/packages/install/education.txt
+install_packages /opt/packages/install/lab-tools.txt
+
+while read -r pkg; do
+    [ -z "$pkg" ] && continue
+    apt purge -y "$pkg"
+done < /opt/packages/remove/bloatware.txt
+
+apt autoremove -y
+
+# ==============================
+# 3. USER & CONFIGS (CINNAMON)
+# ==============================
+echo "[3/4] Applying Cinnamon desktop configs..."
+
+# Buat user lab
+if ! id userlab &>/dev/null; then
+    useradd -m -s /bin/bash userlab
+fi
+
+# Pastikan tidak sudo
+deluser userlab sudo 2>/dev/null || true
+
+# Cinnamon themes & icons
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Dark'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'"
+runuser -l userlab -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark'"
+
+# Disable desklets & applets (minim distraksi)
+runuser -l userlab -c "gsettings set org.cinnamon enabled-desklets []"
+runuser -l userlab -c "gsettings set org.cinnamon enabled-applets []"
+
+# ==============================
+# 4. FINAL SETUP
+# ==============================
+echo "[4/4] Finalizing setup..."
+
 timedatectl set-timezone Asia/Jakarta
 
-# Nonaktifkan suspend (lab friendly)
 systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
-echo "Konfigurasi First boot selesai. Yey"
+echo "First boot setup completed successfully."
