@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Informatika Lab Distro
+Description=Boot splash for Informatika Lab Linux
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/remonos
+ScriptFile=/usr/share/plymouth/themes/remonos/remonos.script
