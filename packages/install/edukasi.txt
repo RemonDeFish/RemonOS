@@ -1,0 +1,10 @@
+geogebra
+stellarium
+kalgebra
+kig
+scratch
+python3
+python3-pip
+jupyter-notebook
+texlive-full
+pandoc
