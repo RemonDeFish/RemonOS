@@ -1,0 +1,10 @@
+libreoffice
+libreoffice-help-en
+gimp
+inkscape
+okular
+evince
+firefox-esr
+vlc
+thunderbird
+filezilla
