@@ -66,4 +66,10 @@ timedatectl set-timezone Asia/Jakarta
 
 systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 
-echo "First boot setup completed successfully."
+echo "First boot setup telah selesai."
+echo "Mematikan first-boot service..."
+
+systemctl disable first-boot.service
+
+echo "First boot service mati. System siap."
+
