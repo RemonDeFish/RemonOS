@@ -1,0 +1,7 @@
+thunderbird
+cheese
+rhythmbox
+aisleriot
+gnome-mahjongg
+gnome-mines
+gnome-sudoku
