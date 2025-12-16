@@ -1,0 +1,10 @@
+git
+git-lfs
+vim
+nano
+htop
+neofetch
+curl
+wget
+openssh-client
+virtualbox
