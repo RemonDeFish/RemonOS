@@ -1,0 +1,45 @@
+logo = Image("logo.png");
+dot = Image("dot.png");
+
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+
+/* Logo position */
+logo_x = (screen_width - logo.GetWidth()) / 2;
+logo_y = (screen_height - logo.GetHeight()) / 2 - 40;
+
+logo_sprite = Sprite(logo);
+logo_sprite.SetX(logo_x);
+logo_sprite.SetY(logo_y);
+
+/* Loading dots */
+dots = [];
+dot_count = 3;
+dot_spacing = 40;
+
+base_x = (screen_width - (dot_spacing * (dot_count - 1))) / 2;
+base_y = logo_y + logo.GetHeight() + 30;
+
+for (i = 0; i < dot_count; i++) {
+    sprite = Sprite(dot);
+    sprite.SetX(base_x + (i * dot_spacing));
+    sprite.SetY(base_y);
+    sprite.SetOpacity(0);
+    dots.push(sprite);
+}
+
+/* Animation loop */
+current_dot = 0;
+
+fun animate() {
+    for (i = 0; i < dot_count; i++) {
+        dots[i].SetOpacity(0.2);
+    }
+    dots[current_dot].SetOpacity(1.0);
+
+    current_dot = (current_dot + 1) % dot_count;
+
+    Plymouth.SetTimeout(animate, 300);
+}
+
+animate();
