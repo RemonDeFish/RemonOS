@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Informatika Lab Welcome
+Exec=/usr/local/bin/informatika-welcome.sh
+Icon=dialog-information
+Terminal=false
+X-GNOME-Autostart-enabled=true
