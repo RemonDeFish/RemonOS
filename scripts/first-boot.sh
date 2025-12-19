@@ -54,7 +54,7 @@ runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface icon-theme '
 runuser -l userlab -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark'"
 
 # Set wallpaper Cinnamon
-runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbg.jpg'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbg.png'"
 runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-options 'zoom'"
 
 
