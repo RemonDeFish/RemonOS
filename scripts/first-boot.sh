@@ -57,6 +57,8 @@ runuser -l userlab -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark'"
 runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbg.png'"
 runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-options 'zoom'"
 
+# Apply Cinnamon desktop config
+runuser -l userlab -c "dconf load /org/cinnamon/ < /opt/configs/desktop/cinnamon-settings.dconf"
 
 # Disable desklets & applets (minim distraksi)
 runuser -l userlab -c "gsettings set org.cinnamon enabled-desklets []"
