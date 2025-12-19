@@ -1,5 +1,25 @@
 # RemonOS Informatika-Distro
-Informatika-Distro: Menciptakan Lingkungan Kerja Digital Khusus
+Informatika-Distro: Menciptakan Lingkungan Kerja Digital Khusus Lab
+                                         
+                         \e[32m60d00d\e[0m                           
+                          \e[32m0    0v\e[0m                         
+                           \e[32m6d   6\e[0m                         
+                              \e[32m066m\e[0m                        
+                            \e[33mmmmmmmmm\e[0m                       
+   AAAAAAAAAAN        \e[33mmmmmmmmmmm\e[0m        AAAAAAAAv    
+   AAA      AAAd    \e[33mmmmmmmmmmmmmm\e[0m     AAA       AAA    
+   AAA        AA    \e[33mmmmmmmmmmmmmmmm\e[0m   mAA        AA
+   AAA        AA   \e[33mmmmmmmmmmmmmmmmm\e[0m    AI            
+   AAA      IAA1   \e[33mmmmmmmmmmmmmmmmm\e[0m     AAAAAAAv       
+   AAAAAAAAAAE     \e[33mmmmmmmmmmmmmmmmm\e[0m          IAAAA  
+   AAA     AA      \e[33mmmmmmmmmmmmmmmm\e[0m              AAA  
+   AAA      AAv    \e[33mmmmmmmmmmmmmm\e[0m     AAI        RAA   
+   AAA      vAAv    \e[33mmmmmmmmmmmr\e[0m       AAA      AAA    
+   AAA        AAm    \e[33mmmmmmmm\e[0m            AAAAAAAAv     
+                                                          
+## Download ISO
+Latest release:
+https://sourceforge.net/projects/remonos
 
 ## Deskripsi
 RemonOS Academic Lab Distro adalah distribusi Linux hasil remaster dari Liux Mint (Ubuntu-based) yang dirancang khusus untuk lingkungan laboratorium komputer dan akademik.  
