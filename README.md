@@ -1,21 +1,23 @@
 # RemonOS Informatika-Distro
 Informatika-Distro: Menciptakan Lingkungan Kerja Digital Khusus Lab
                                          
-                         \e[32m60d00d\e[0m                           
-                          \e[32m0    0v\e[0m                         
-                           \e[32m6d   6\e[0m                         
-                              \e[32m066m\e[0m                        
-                            \e[33mmmmmmmmm\e[0m                       
-   AAAAAAAAAAN        \e[33mmmmmmmmmmm\e[0m        AAAAAAAAv    
-   AAA      AAAd    \e[33mmmmmmmmmmmmmm\e[0m     AAA       AAA    
-   AAA        AA    \e[33mmmmmmmmmmmmmmmm\e[0m   mAA        AA
-   AAA        AA   \e[33mmmmmmmmmmmmmmmmm\e[0m    AI            
-   AAA      IAA1   \e[33mmmmmmmmmmmmmmmmm\e[0m     AAAAAAAv       
-   AAAAAAAAAAE     \e[33mmmmmmmmmmmmmmmmm\e[0m          IAAAA  
-   AAA     AA      \e[33mmmmmmmmmmmmmmmm\e[0m              AAA  
-   AAA      AAv    \e[33mmmmmmmmmmmmmm\e[0m     AAI        RAA   
-   AAA      vAAv    \e[33mmmmmmmmmmmr\e[0m       AAA      AAA    
-   AAA        AAm    \e[33mmmmmmmm\e[0m            AAAAAAAAv     
+                                                
+                         60d00d                           
+                          0    0v                         
+                           6d   6                         
+                              066m                        
+                            mmmmmmm                       
+     AAAAAAAAAAN         mmmmmmmmmmm        AAAAAAAAv     
+     AAA      AAAd     mmmmmmmmmmmmmm     AAA      AAA    
+     AAA        AA    mmmmmmmmmmmmmmmm   mAA        AAA   
+     AAA        AA   mmmmmmmmmmmmmmmmm    AAI             
+     AAA      IAA1   mmmmmmmmmmmmmmmmm     AAAAAAAv       
+     AAAAAAAAAAE     mmmmmmmmmmmmmmmmm          IAAAAA    
+     AAA     AA      mmmmmmmmmmmmmmmm               AAA   
+     AAA      AAv    rmmmmmmmmmmmmmm     AAI        RAA   
+     AAA      vAAv     mmmmmmmmmmmr       AAA      AAA    
+     AAA        AAm     mmmmmmmm            AAAAAAAAv     
+                                                          
                                                           
 ## Download ISO
 Latest release:
