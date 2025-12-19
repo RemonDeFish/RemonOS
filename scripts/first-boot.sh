@@ -53,6 +53,11 @@ runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface gtk-theme 'M
 runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'"
 runuser -l userlab -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark'"
 
+# Set wallpaper Cinnamon
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbg.jpg'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-options 'zoom'"
+
+
 # Disable desklets & applets (minim distraksi)
 runuser -l userlab -c "gsettings set org.cinnamon enabled-desklets []"
 runuser -l userlab -c "gsettings set org.cinnamon enabled-applets []"
