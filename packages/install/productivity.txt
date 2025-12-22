@@ -3,7 +3,6 @@ gimp
 inkscape
 okular
 evince
-firefox
 vlc
 thunderbird
 filezilla
