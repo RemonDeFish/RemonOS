@@ -1,5 +1,4 @@
 libreoffice
-libreoffice-help-en
 gimp
 inkscape
 okular
