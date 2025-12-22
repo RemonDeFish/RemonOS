@@ -49,12 +49,12 @@ fi
 deluser userlab sudo 2>/dev/null || true
 
 # Cinnamon themes & icons
-runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Dark'"
-runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'"
-runuser -l userlab -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface gtk-theme 'RemonOS-GTK'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Light'"
+runuser -l userlab -c "gsettings set org.cinnamon.theme name 'RemonOS-Cinnamon'"
 
 # Set wallpaper Cinnamon
-runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbg.png'"
+runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-uri 'file:///usr/share/backgrounds/remonos/remonosbgl.png'"
 runuser -l userlab -c "gsettings set org.cinnamon.desktop.background picture-options 'zoom'"
 
 # Apply Cinnamon desktop config
